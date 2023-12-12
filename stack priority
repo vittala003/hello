@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<ctype.h>
+char infix[20],sym,st[20];
+int top=-1;
+void push(char sym)
+{
+++top;
+st[top]=sym;
+
+}
+char pop()
+{
+char sym;
+sym=st[top];
+top--;
+return sym;
+}
+int sym_priority(char sym)
+{
+if(sym==
