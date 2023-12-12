@@ -18,3 +18,5 @@ return sym;
 int sym_priority(char sym)
 {
 if(sym==
+
+
